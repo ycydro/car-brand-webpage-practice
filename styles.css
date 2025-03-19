@@ -2,9 +2,10 @@
    margin: 0;
    padding: 0;
    font-family: "Noto Sans", sans-serif;
-   font-optical-sizing: auto;
-   font-weight: normal;
-   font-style: normal;
+}
+
+body {
+   color: cornsilk;
 }
 
 .flex-container {
@@ -16,10 +17,19 @@
 }
 
 .nav-bar {
+   font-weight: 500;
+   font-size: 1.5rem;
    position: fixed;
    width: 100%;
    padding: 1.3rem;
-   border: 5px solid black;
+   background: rgba(0, 0, 0,0.5);
+}
+
+.nav-items {
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   text-shadow: 0px 2px 9px rgba(248, 248, 249, 0.75);
 }
 
 .nav-bar a {
@@ -27,7 +37,22 @@
    color: inherit;
 }
 
+.nav-list-items {
+   margin: 0px 3rem;
+}
+
+button.nav-list-items {
+   font-weight: 800;
+   padding: 1rem;
+   border-radius: 30px;
+   border: none;
+   background-color: black;
+   color: whitesmoke;
+   box-shadow: 0px 1px 5px rgba(248, 248, 249, 0.75);
+}
+
 .hero {
+   border: 10px solid yellow;
    background-image: url("assets/imgs/hero.jpg");
    height: 950px;
    background-position: center;
@@ -36,9 +61,18 @@
 }
 
 .hero-text {
-   margin-top: 5rem;
+   height: 20rem;
+   font-size: 4rem;
+   overflow: wrap;
+   margin-top: 10rem;
    display: flex;
-   width: 100%;;
+   width: 100%;
    text-align: center;
    justify-content: center;
+   color: black;
+}
+
+.info {
+   background-color: white;
+   margin-bottom: 1000px;
 }
