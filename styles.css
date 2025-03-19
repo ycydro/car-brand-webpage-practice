@@ -87,6 +87,7 @@ button.nav-list-items {
 
 .info {
    width: 100%;
+   height: 510px;
 }
 
 .grid-info {
@@ -130,18 +131,23 @@ button.nav-list-items {
 .cards {
    align-items: center;
    border-radius: 20px;
-   padding: 2rem;
+   padding: 1.5rem;
    text-align: center;
    color: black;
-   height: 17rem;
+   height: 21.5rem;
    width: 15rem;
    border: 1px solid black;
+   gap: 1rem;
 }
 
 .cards img {
    width: 100%;
 }
 
+.car-name {
+   font-size: 2rem;
+   font-weight: 600;
+}
 
 .car-info {
    font-size: 1rem;
